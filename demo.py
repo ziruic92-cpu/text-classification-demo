@@ -7,8 +7,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import TruncatedSVD
 
 # 解决 Matplotlib 中文显示问题
-#plt.rcParams['font.sans-serif'] = ['SimHei']
-#plt.rcParams['axes.unicode_minus'] = False
+plt.rcParams['font.sans-serif'] = ['WenQuanYi Zen Hei']
+plt.rcParams['axes.unicode_minus'] = False
 
 st.set_page_config(page_title="文本分类前沿探索", layout="wide")
 st.title("🚀 NVDM + GNN：文本分类前沿技术真实演示")
